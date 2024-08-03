@@ -1,0 +1,13 @@
+.products_cards-item {
+  max-width: 420px;
+  
+}
+
+.cards_item-image {
+  max-width: 100%;
+ height: auto;
+}
+
+.products_title {
+  margin-bottom: 32px;
+}

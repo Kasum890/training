@@ -1,0 +1,36 @@
+.promo {
+  background-color: #6cb9ab;
+}
+
+.promo_conteiner {
+  background-color: #6cb9ab;
+  margin: 0 auto;
+  padding: 0 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 119px;
+}
+
+.promo_title {
+  font-weight: 400;
+  font-size: 88px;
+  line-height: 110%;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.promo_button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 16px 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 124%;
+  color: #fff;
+}
+
+.promo_conteiner-img {
+  margin-right: 113px;
+}

@@ -1,0 +1,54 @@
+.header {
+  background-color: #6cb9ab;
+  position: absolute;
+  top: 24px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 1440px;
+  border-radius: 6px
+}
+
+.header_conteiner {
+  
+  padding: 12px 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_list {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 124%;
+  color: #fff;
+}
+
+.header_basket {
+  background-image: url(../image/bag.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 124%;
+  text-align: center;
+  color: #64099b;
+  padding: 10px 5px 4px;
+}
+
+
+@media (max-width: 1399px) {
+  .header {
+   width: 100%;
+  } 
+}

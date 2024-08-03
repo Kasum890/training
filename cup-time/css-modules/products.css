@@ -1,0 +1,13 @@
+.products_conteiner {
+  margin: 100px auto;
+  padding: 0 46px;
+}
+
+.products_cards-items {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    gap: 20px;
+   
+  }
